@@ -1,0 +1,16 @@
+.home {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 10px;
+  gap: 15px;
+}
+.home .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.home .card img {
+  width: 300px;
+  max-height: 300px;
+}

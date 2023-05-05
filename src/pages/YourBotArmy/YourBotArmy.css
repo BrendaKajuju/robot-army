@@ -1,0 +1,17 @@
+/** @format */
+.cart {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 10px;
+  gap: 15px;
+}
+.cart .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.cart .card img {
+  width: 300px;
+  max-height: 300px;
+}
